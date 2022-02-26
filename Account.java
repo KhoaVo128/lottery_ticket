@@ -3,7 +3,7 @@ public class Account {
     private  long spent;
 
     public Account(){
-        earned=0;
+        earned=100;
         spent=0;
     }
 
