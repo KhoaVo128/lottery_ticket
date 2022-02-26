@@ -4,7 +4,7 @@ public class Account {
 
     public Account(){
         earned=100;
-        spent=0;
+        spent=100;
     }
 
     public void setAccount(long spent, long earned){
