@@ -2,6 +2,9 @@
 import java.util.Scanner;
 public class lottery {
     static int ticket_price=10;
+    
+    static boolean existed(Ticket a, Ticket[] boughtTickets);
+    
     static Ticket prize_ticket=new Ticket();
     public static void main(String[] args){
         Ticket prize_ticket=new Ticket(1+(int)(Math.random()*49),1+(int)(Math.random()*49), 1+(int)(Math.random()*49),
